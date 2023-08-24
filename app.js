@@ -9,6 +9,11 @@ function updateURL(input) {
      return serverURL + "?" + "text=" + input 
 }
 
+function errorHandler(error) {
+     console.log(error);
+     alert("Something went wrong with the server, please try again after some time.");
+}
+
 function clickHandler() {
      var inputText = txtInput.value;
      fetch(updateURL(inputText))
@@ -17,4 +22,5 @@ function clickHandler() {
          var translatedText = json.contents.translated;
          output.innerText = translatedText;
      })
+     .catch(errorHandler)
 }    
