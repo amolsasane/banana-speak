@@ -34,10 +34,11 @@ button {
      font-family: 'Concert One', cursive;
      height: 2rem;
      width: 5rem;
-     background-color: #FFC72C;
-     color: #1F6284;
+     background-color: #1F6284;
+     color: white;
      border-radius: 1rem;
-     border: 3px double #1F6284;
+     border: 2px solid #1F6284;
+     box-shadow: 2px 3px 4px 1px black;
 }
 #output {
      background-color: white;
