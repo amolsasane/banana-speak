@@ -37,8 +37,9 @@ textarea {
 }
 button {
      font-family: 'Concert One', cursive;
-     height: 2rem;
-     width: 5rem;
+     font-size: 1rem;
+     height: 2.2rem;
+     width: 6rem;
      background-color: #1F6284;
      color: white;
      border-radius: 1rem;
@@ -52,9 +53,11 @@ button {
      height: 5rem;
      padding: auto;
      margin: 1.4rem auto;
-     border: 3px dotted  #1F6284;
+     border: 3px dashed  #1F6284;
      border-radius: 0.5rem;
-     overflow: scroll;
+     overflow: auto;
+     overflow-x: hidden;
+
      
 }
 
