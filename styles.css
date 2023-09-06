@@ -113,7 +113,6 @@ button {
 /* footer */
 .footer {
      background-color: var(--primary-coolor);
-     padding: 0.5rem;
      color: var(--secondary-color);
      padding: 1rem;
 }
